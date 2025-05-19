@@ -38,7 +38,7 @@ permissions:
 
 jobs:
   Analysis:
-    runs-on: poc-sonarqube
+    runs-on: [self-hosted, linux]
 
     steps:
       - name: Analyze with SonarQube
